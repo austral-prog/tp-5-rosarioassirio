@@ -1,6 +1,6 @@
 def number_to_month(month):
     if month == 1:
-        print "enero"
+        return "enero"
     elif month == 2:
         return "febrero"
     elif month == 3:
