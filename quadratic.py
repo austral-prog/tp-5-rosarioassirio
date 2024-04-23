@@ -6,8 +6,7 @@ def roots(a, b, c):
         r2= (-b - math.sqrt(discriminante))/(2*a)
         return f"({r1}, {r2})"
     elif discriminante == 0 :
-        r12= (-b/(2*a))
-        return f"({r12})"
+        return f"({-b/(2*a)})"
     else :
         return "( )"
 def value_y(a, b, c, x):
