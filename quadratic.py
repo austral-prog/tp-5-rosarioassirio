@@ -10,7 +10,6 @@ def roots(a, b, c):
         return f"({r12})"
     else :
         return "( )"
-        
 def value_y(a, b, c, x):
     y = a*(x**2)+(b*x)+c
     return y
@@ -29,10 +28,10 @@ def to_string(a, b, c):
 
 def derivation(a, b, c):
     if a!=0 and b!=0:
-        return f"f'(x) = {2*a}X + {b}"
+        return f"f'(x) = {2*a} * X + {b}"
     elif a==0 and b!=0:
         return f"f'(x) = {b}"
     elif a!=0 and b==0:
-        return f"f'(x) = {2*a}X"
+        return f"f'(x) = {2*a} * X"
     elif a==0 and b==0:
         return f"f'(x) = 0"
